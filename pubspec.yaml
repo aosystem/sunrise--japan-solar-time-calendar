@@ -1,0 +1,61 @@
+name: sunrise
+description: "sunrise"
+
+publish_to: 'none'
+
+version: 1.1.0+4
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.10.11
+  webview_flutter_wkwebview: ^3.23.5
+  google_mobile_ads: ^7.0.0
+  path_provider: ^2.0.11
+  shared_preferences: ^2.5.3
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  in_app_review: ^2.0.11
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "assets/icon/icon_back.png"
+  adaptive_icon_foreground: "assets/icon/icon_fore.png"
+
+flutter_native_splash:
+  color: '#291921'
+  image: 'assets/image/splash.png'
+  color_dark: '#291921'
+  image_dark: 'assets/image/splash.png'
+  fullscreen: true
+  android_12:
+    icon_background_color: '#291921'
+    image: 'assets/image/splash.png'
+    icon_background_color_dark: '#291921'
+    image_dark: 'assets/image/splash.png'
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/image/
+    - assets/httpdocs/
+    - assets/httpdocs/common/css/
+    - assets/httpdocs/js/
+
