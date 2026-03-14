@@ -6,6 +6,9 @@ A specialized **Solar Time Calendar** built with **Flutter**, designed specifica
 [![App Store](https://img.shields.io/badge/App_Store-Download-black?logo=apple&logoColor=white)](https://apps.apple.com/jp/app/id6758293446)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 📺 Demo Video
+[![Watch the video](https://img.youtube.com/vi/22slc3rTcD4/0.jpg)](https://www.youtube.com/watch?v=22slc3rTcD4)
+
 ## 🌟 Overview
 This application is a dedicated service for the **Japanese market**, offering a high-visibility, 12-month calendar view of solar events.
 
